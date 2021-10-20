@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+  background: url("../images/degrade.png");
+  background-color: #121214;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body {
+  --black: hsl(240, 6%, 13%);
+  --grey: hsl(240, 9%, 89%);
+
+  display: grid;
+  place-items: center;
+}
+
+.atropos-rotate {
+  width: 358px;
+  height: 540px;
+  margin-top: -220px;
+}
+
+main {
+  background: url("../images/vetor.png");
+  background-repeat: no-repeat;
+  background-color: #202024;
+  width: 358px;
+  height: 540px;
+
+  transform-style: preserve-3d;
+  transform: translateZ(0);
+}
+
+.container {
+  max-width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  color: var(--grey);
+}
+
+body span {
+  z-index: 5;
+}
+
+body span:nth-child(2) {
+  margin-top: -12px;
+  z-index: 4;
+}
+
+.container .avatar {
+  padding-top: 75px;
+}
+
+.avatar {
+  width: 10rem;
+  margin: 10.8rem auto 0;
+
+  position: relative;
+}
+
+.avatar span {
+  position: absolute;
+  top: 60px;
+  z-index: 1;
+}
+
+.avatar > img {
+  width: 10rem;
+  height: 11.5rem;
+  object-fit: cover;
+
+  clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+h1 {
+  font-size: 1.5rem;
+
+  margin-top: 1.5rem;
+}
+
+a {
+  color: var(--grey);
+  text-decoration: none;
+
+  margin-top: 0.25rem;
+
+  display: flex;
+  gap: 0.75rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin-top: 3rem;
+}
+
+ul {
+  margin-top: 2rem;
+
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  gap: 0.5rem;
+
+  justify-content: center;
+}
