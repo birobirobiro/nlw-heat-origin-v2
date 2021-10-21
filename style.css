@@ -44,7 +44,7 @@ main {
   border: 1px solid rgba(255, 255, 255, 0.411);
   /* z-index: 0; */
 
-  margin-top: -330px;
+  margin-top: -340px;
 }
 
 .atropos-rotate {
@@ -62,11 +62,11 @@ main {
 
 body span {
   margin-top: -100px;
-  z-index: 5;
+  z-index: 100;
 }
 
 body span:nth-child(2) {
-  margin-top: -320px;
+  margin-top: -330px;
   z-index: 100;
 }
 
