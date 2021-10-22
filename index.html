@@ -29,23 +29,24 @@
       <!-- rotate container (required) -->
       <div class="atropos-rotate">
         <main>
-          <div class="container" data-atropos-offset="-4"
-            style=" transform: translate3d(0px, 0px, 0px);">
+          <div class="container">
+      
             <div class="avatar">
               <span>
-                <img src="images/selo.svg" alt="Selo Rocketseat" data-atropos-offset="2">
+                <img src="images/selo.svg" alt="Selo Rocketseat">
               </span>
-
-              <img src="https://github.com/birobirobiro.png" alt="Foto pessoal">
+      
+              <img id="userImage" src="https://github.com/birobirobiro.png" alt="Foto pessoal">
             </div>
-
+      
             <h1 id="userName">João Inácio</h1>
-            <a href="https://instagram.com/birobirobiro" target="_blank">
-              <img src="images/github.svg" alt="Ícone Github">birobirobiro
+            <a id="userLink" href="https://instagram.com/birobirobiro" target="_blank">
+              <img src="images/github.svg" alt="Ícone Github">
+              <div id="userLogin">birobirobiro</div>
             </a>
-
-            <p>An instructor focused on helping people start programming for web</p>
-
+      
+            <p id="userBio">An instructor focused on helping pople start programming for web</p>
+      
             <ul id="socialLinks">
               <li class="youtube">
                 <a href="https://youtube.com/birobirobiro" target="_blank">
@@ -53,7 +54,7 @@
                 </a>
               </li>
               <li class="facebook">
-                <a href="https://facebook.com/birobirobiro" target="_blank">
+                <a href="#" target="_blank">
                   <img src="images/facebook.svg" alt="Ícone Facebook">
                 </a>
               </li>
@@ -63,11 +64,11 @@
                 </a>
               </li>
               <li class="twitter">
-                <a href="https://twitter.com/birobirobiro" target="_blank">
+                <a href="#" target="_blank">
                   <img src="images/twitter.svg" alt="Ícone Twitter">
                 </a>
               </li>
-
+      
             </ul>
           </div>
         </main>
@@ -79,37 +80,8 @@
   </div>
 
   <script src="atropos.min.js"></script>
-  <script>
-    const myAtropos = Atropos({
-      el: '.my-atropos',
-
-    });
-  </script>
-
-  <script>
-    const LinksSocialMedia = {
-
-      github: "birobirobiro",
-      youtube: "birobirobiro",
-      facebook: "birobirobiro",
-      instagram: "birobirobiro",
-      twitter: "birobirobiro"
-    }
-
-    function changeSocialMediaLinks() {
-      for (let li of socialLinks.children) {
-        const social = li.getAttribute('class');
-
-        li.children[0].href = `https://${social}.com/${LinksSocialMedia[social]}`
-
-        // alert(li.children[0].href)
-      }
-
-    }
-
-    changeSocialMediaLinks()
-
-  </script>
+  <script src="atropos.js"></script>
+  <script src="main.js"> </script>
 </body>
 
 </html>
