@@ -10,9 +10,11 @@
 </p>
 
 <p align="center">
- <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
+ <img  src="https://img.shields.io/static/v1?label=license&message=MIT&color=FFCD1E&labelColor=FF008E" alt="License">
+  
+  <img src="https://img.shields.io/github/forks/birobirobiro/nlw-heat-origin-v2?label=forks&message=MIT&color=FFCD1E&labelColor=FF008E" alt="Forks">
 
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+  <img src="https://img.shields.io/github/stars/birobirobiro/nlw-heat-origin-v2?label=stars&message=MIT&color=FFCD1E&labelColor=FF008E" alt="Stars">
 </p>
 
 <br>
