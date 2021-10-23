@@ -43,12 +43,7 @@ main {
   -webkit-backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.411);
 
-  margin-top: -340px;
-}
-
-.atropos-rotate {
-  backdrop-filter: saturate(180%) blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  margin-top: -350px;
 }
 
 .container {
@@ -60,12 +55,12 @@ main {
 }
 
 body span {
-  margin-top: -100px;
+  margin-top: -90px;
   z-index: 100;
 }
 
 body span:nth-child(2) {
-  margin-top: -330px;
+  margin-top: -350px;
   z-index: 100;
 }
 
@@ -92,6 +87,10 @@ body span:nth-child(2) {
   object-fit: cover;
 
   clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+}
+
+.animate__animated animate__bounce {
+  animation: animate__bounceIn;
 }
 
 h1 {
@@ -127,4 +126,44 @@ ul {
   gap: 0.5rem;
 
   justify-content: center;
+}
+
+.youtube {
+  text-align: center;
+  background-color: #323238;
+  border-radius: 5px;
+}
+
+.youtube:hover {
+  background-color: #ff0000;
+}
+
+.twitch {
+  text-align: center;
+  background-color: #323238;
+  border-radius: 5px;
+}
+
+.twitch:hover {
+  background-color: #6441a5;
+}
+
+.instagram {
+  text-align: center;
+  background-color: #323238;
+  border-radius: 5px;
+}
+
+.instagram:hover {
+  background-color: #c13584;
+}
+
+.linkedin {
+  text-align: center;
+  background-color: #323238;
+  border-radius: 5px;
+}
+
+.linkedin:hover {
+  background-color: #0072b1;
 }

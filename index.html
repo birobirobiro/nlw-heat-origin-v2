@@ -14,6 +14,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 
@@ -25,64 +27,52 @@
     <img src="images/quebra.svg" alt="Faixa Rocketseat">
   </span>
 
-  <div class="atropos my-atropos">
-    <!-- scale container (required) -->
-    <div class="atropos-scale">
-      <!-- rotate container (required) -->
-      <div class="atropos-rotate">
-        <main>
-          <div class="container">
-      
-            <div class="avatar">
-              <span>
-                <img src="images/selo.svg" alt="Selo Rocketseat">
-              </span>
-      
-              <img id="userImage" src="https://github.com/birobirobiro.png" alt="Foto pessoal">
-            </div>
-      
-            <h1 id="userName">João Inácio</h1>
-            <a id="userLink" href="https://instagram.com/birobirobiro" target="_blank">
-              <img src="images/github.svg" alt="Ícone Github">
-              <div id="userLogin">birobirobiro</div>
-            </a>
-      
-            <p id="userBio">An instructor focused on helping pople start programming for web</p>
-      
-            <ul id="socialLinks">
-              <li class="youtube">
-                <a href="https://youtube.com/birobirobiro" target="_blank">
-                  <img src="images/youtube.svg" alt="Ícone Youtube" />
-                </a>
-              </li>
-              <li class="facebook">
-                <a href="#" target="_blank">
-                  <img src="images/facebook.svg" alt="Ícone Facebook">
-                </a>
-              </li>
-              <li class="instagram">
-                <a href="https://instagram.com/birobirobiro" target="_blank">
-                  <img src="images/instagram.svg" alt="Ícone Instagram">
-                </a>
-              </li>
-              <li class="twitter">
-                <a href="#" target="_blank">
-                  <img src="images/twitter.svg" alt="Ícone Twitter">
-                </a>
-              </li>
-      
-            </ul>
-          </div>
-        </main>
-        <div class="atropos-inner">
-          <!-- put your custom content here -->
-        </div>
-      </div>
-    </div>
-  </div>
+  <main data-tilt="" data-tilt-glare="true" data-tilt-max-glare="0.1" data-tilt-speed="400" data-tilt-scale="1.02" data-tilt-max="10" data-tilt-perspective="500" style="transform: perspective(500px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1); will-change: transform;">
+    <div class="container">
 
-  <script src="atropos.min.js"></script>
-  <script src="atropos.js"></script>
+      <div class="avatar">
+        <span>
+          <img src="images/selo.svg" alt="Selo Rocketseat" class="animate__animated animate__bounceIn animate__infinite animate__slower">
+        </span>
+
+        <img id="userImage" src="https://github.com/birobirobiro.png" alt="Foto pessoal">
+      </div>
+
+      <h1 id="userName">João Inácio</h1>
+      <a id="userLink" href="https://instagram.com/birobirobiro" target="_blank">
+        <img src="images/github.svg" alt="Ícone Github">
+        <div id="userLogin">birobirobiro</div>
+      </a>
+
+      <p id="userBio">An instructor focused on helping pople start programming for web</p>
+
+      <ul id="socialLinks">
+        <li class="youtube">
+          <a href="" target="_blank">
+            <img src="images/youtube.svg" alt="Ícone Youtube" />
+          </a>
+        </li>
+        <li class="linkedin">
+          <a href="" target="_blank">
+            <img src="images/linkedin.svg" alt="Ícone Linkedin" >
+          </a>
+        </li>
+        <li class="instagram">
+          <a href="" target="_blank">
+            <img src="images/instagram.svg" alt="Ícone Instagram">
+          </a>
+        </li>
+        <li class="twitch">
+          <a href="" target="_blank">
+            <img src="images/twitch.svg" alt="Ícone Twitch">
+          </a>
+        </li>
+
+      </ul>
+    </div>
+  </main>
+
+  <script src="vanilla-tilt.js"></script>
   <script src="main.js"> </script>
 </body>
 

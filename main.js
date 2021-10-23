@@ -2,9 +2,9 @@ const LinksSocialMedia = {
 
   github: "birobirobiro",
   youtube: "birobirobiro",
-  facebook: "#",
+  linkedin: "in/joaoinacioneto",
   instagram: "birobirobiro",
-  twitter: "#"
+  twitch: "birobirobiro"
 }
 
 function changeSocialMediaLinks() {
