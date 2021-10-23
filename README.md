@@ -30,6 +30,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML
 - CSS
 - JavaScript
+- [Vanilla-tilt](https://micku7zu.github.io/vanilla-tilt.js/index.html)
+- [Animate.css](https://github.com/animate-css/animate.css)
 
 ## 💻 Projeto
 
